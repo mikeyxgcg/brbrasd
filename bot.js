@@ -16,13 +16,13 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === 'fراتب'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === 'f1مبلغ'){
+    if(message.content === 'fمبلغ'){
         message.channel.send('#credits')
     }
 });
@@ -34,19 +34,19 @@ client.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === 'f1راتب'){
+    if(message.content === 'fراتب'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === 'fمبلغ'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === 'f1ريب'){
+    if(message.content === 'fريب'){
         message.channel.send('#credits')
     }
 });
