@@ -28,7 +28,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content ==='f1ريب'){
+    if(message.content ==='fريب'){
         message.channel.send('#credits')
     }
 });
@@ -82,7 +82,7 @@ if (message.content === 'fspam') {
 });
 
 client.on('message', message => {
-        var prefix = "f1";  // البريفكس
+        var prefix = "#";  // البريفكس
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
       
@@ -101,7 +101,7 @@ client.on('message', message => {
       });
 
 client2.on('message', message => {
-        var prefix = "f2";  // البريفكس
+        var prefix = "-";  // البريفكس
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
       
